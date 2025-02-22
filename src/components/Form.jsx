@@ -67,7 +67,7 @@ function Form() {
     );
 
     async function handleSubmit(e) {
-        e.perventDefault();
+        e.preventDefault();
 
         if (!cityName || !date) return;
 
@@ -110,7 +110,7 @@ function Form() {
                 <label htmlFor='date'>When did you go to {cityName}?</label>
                 <DatePicker
                     id='date'
-                    onChange={(e) => setDate(e.target.value)}
+                    onChange={(date) => setDate(date)}
                     selected={date}
                     dateFormat={'dd/MM/yyyy'}
                 />
