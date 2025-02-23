@@ -35,6 +35,30 @@
         "lng": 13.376933665713324
       },
       "id": "98443197"
+    },
+    {
+      "id": "db3f",
+      "cityName": "Villanueva de Cordoba",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-02-23T13:29:44.051Z",
+      "notes": "",
+      "position": {
+        "lat": "38.37611542403604",
+        "lng": "-4.658203125000001"
+      }
+    },
+    {
+      "id": "9dc3",
+      "cityName": "Tazouta",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2025-02-23T13:30:21.289Z",
+      "notes": "test",
+      "position": {
+        "lat": "33.63291573870479",
+        "lng": "-4.614257812500001"
+      }
     }
   ]
 }
